@@ -6,6 +6,10 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from backend.main import run_system
+from backend.engine.intelligence_engine import generate_insights
+from backend.engine.budget_engine import check_budget
+import pandas as pd
+
 
 st.set_page_config(page_title="AgentWallet AI", layout="wide")
 

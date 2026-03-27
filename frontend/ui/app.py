@@ -1,9 +1,11 @@
 # ui/app.py
-
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from main import run_system
+from backend.main import run_system
 
 st.set_page_config(page_title="AgentWallet AI", layout="wide")
 

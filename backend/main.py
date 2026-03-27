@@ -1,11 +1,11 @@
 # main.py
 
-from agents.save_agent import evaluate as save_eval
-from agents.spend_agent import evaluate as spend_eval
-from agents.invest_agent import evaluate as invest_eval
+from backend.agents.save_agent import evaluate as save_eval
+from backend.agents.spend_agent import evaluate as spend_eval
+from backend.agents.invest_agent import evaluate as invest_eval
 
-from engine.decision_engine import decide
-from engine.action_engine import take_action
+from backend.engine.decision_engine import decide
+from backend.engine.action_engine import take_action
 
 
 def run_system(data):

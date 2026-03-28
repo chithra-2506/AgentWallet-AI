@@ -1,3 +1,8 @@
+import sys
+import os
+
+# This tells Streamlit to look at the root folder so it can find the 'backend' folder
+sys.path.append(os.getcwd())
 import streamlit as st
 import pandas as pd
 import plotly.express as px
